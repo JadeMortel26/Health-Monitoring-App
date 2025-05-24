@@ -1,8 +1,16 @@
 package com.example.healthmonitoring_app
 import kotlinx.datetime.Clock
-import kotlinx.datetime.Instant
+
+
 
 data class HeartRate(
-    val bpm: Int = 0,
-    val timestamp: Instant = Clock.System.now()
-)
+    val value : Int = 0,
+    val timestamp: Long = Clock.System.now().toEpochMilliseconds()
+) {
+    fun toMap(): Map<String, Any> {
+        return mapOf(
+            "value" to value,
+            "timestamp" to timestamp
+        )
+    }
+}

@@ -31,6 +31,7 @@ kotlin {
         commonMain.dependencies {
             //implementation(project(":shared"))
             implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
+            implementation("com.google.firebase:firebase-firestore:24.4.4")
 
 //put your multiplatform dependencies here
         }
