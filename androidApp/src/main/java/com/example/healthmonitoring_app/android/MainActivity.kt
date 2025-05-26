@@ -142,7 +142,7 @@ class MainActivity : ComponentActivity() {
         val userId = user.uid
         Log.d("BackendInit", "Signed in as $userId")
 
-        // 🔒 Optional: Create user profile document on first login
+        // Optional: Create user profile document on first login
         val userRef = FirebaseFirestore.getInstance().collection("users").document(userId)
         val profile = mapOf(
             "UserEmail" to user.email,

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+
+    <!-- Light Theme -->
+    <color name="background_light">#FFFFFFFF</color>
+    <color name="text_primary_light">#212121</color>  <!-- Dark gray for text -->
+    <color name="card_background_light">#FAFAFA</color>
+
+    <!-- Dark Theme -->
+    <color name="background_dark">#121212</color>
+    <color name="text_primary_dark">#E0E0E0</color>  <!-- Light gray for text -->
+    <color name="card_background_dark">#1E1E1E</color>
+
+
+
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="red_500">#F44336</color>
+    <color name="card_stroke_color">#1F000000</color>
+    <color name="error_color">#F44336</color>
+
+
+
+
+    <color name="outline_color">#FF6200EE</color> <!-- Purple 500 -->
+    <color name="hint_color">#808080</color> <!-- Gray for hints -->
+
+</resources>

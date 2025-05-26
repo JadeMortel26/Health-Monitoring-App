@@ -39,6 +39,11 @@ kotlin {
             implementation(libs.kotlin.test)
         }
     }
+    repositories {
+        google()
+        mavenCentral()
+    }
+
 }
 
 android {

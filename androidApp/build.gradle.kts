@@ -36,6 +36,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    repositories {
+        google()
+        mavenCentral()
+    }
+
 }
 
 dependencies {
@@ -49,6 +54,11 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
+    implementation("com.google.firebase:firebase-auth:21.0.1")
+    implementation("com.google.firebase:firebase-database:20.0.4")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+
 
 
 }
